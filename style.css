@@ -1,0 +1,98 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+/*  */
+/*  */
+/*  */
+
+/* Start of Header */
+.header{
+    background-color: royalblue;
+    text-align: center;
+}
+/* End of header */
+
+/*  */
+/*  */
+/*  */
+
+/* Start of container-flex */
+
+.container-flex{
+    display: flex;
+    padding: 0 0 0 0;
+    margin-top: 50px;
+}
+
+/* End of container-flex */
+
+/*  */
+/*  */
+/*  */
+
+/* Start of container */
+.container{
+    width: 500px;
+    height: 254px;
+    margin: 80px auto;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+.reg-card{
+    width: 80%;
+    text-align: center;
+    background-color: rgba(31, 28, 28, 0.795);
+    padding: 24px 0;
+    border-radius: 24px;
+}
+.reg-card p{
+    margin: 24px 0 8px;
+}
+.reg-card input{
+    padding: 6px 12px;
+    border-radius: 12px;
+    border: none;
+}
+.reg-card input:focus{
+    outline: none;
+}
+#btn{
+    margin-top: 14px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 10px;
+}
+/* End of container */
+
+/*  */
+/*  */
+/*  */
+
+/* Start of input-container */
+
+.input-container{
+    background-color: black;
+    color: black;
+    height: 100vh;
+    padding: 10px 18px;
+}
+.inputs{
+    display: flex;
+    gap:  10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 14px;
+    margin-bottom: 16px;
+}
+.inputs p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* End of input-container */
